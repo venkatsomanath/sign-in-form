@@ -1,5 +1,44 @@
 .App {
   text-align: center;
+  max-width: 300px;
+  margin: 50px auto;
+  background-color: #ccc;
+}
+
+.input__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: rgb(75, 122, 75);
+  width: 100%;
+  padding: 10px;
+  color: #fafafa;
+  font-size: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+form {
+  background-color: white;
+}
+
+.links__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-logo {
